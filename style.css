@@ -44,53 +44,40 @@ html {
 
 .wrapper {
   background-color: red;
+  width: 100%;
   height: 100vh;
-  width: 100vw;
   background-image: url("./images/keypadphone.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center 0;
-  background-size: contain;
+  background-size: cover;
+  border: .1rem solid blueviolet;
 }
 
 .app {
   margin: 0 auto;
-  width: 100vw;
+  border: .1rem solid red;
   height: 100vh;
 }
 
 .output {
-  position: relative;
+  position: absolute;
   z-index: 999;
   background-color: transparent;
   color: black;
-  top: 4rem;
-  height: 4rem;
-  width: 100vw;
+  top: 23vh;
+  width: 100%;
+  height: 24vh;
   font-size: 2rem;
   text-align: center;
-}
-
-@media screen and (max-width: 412px) {
-  .output {
-    top: 7.5rem;
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .output {
-    top: 6.5rem;
-    font-size: 1.5rem;
-  }
+  border: .1rem solid black;
 }
 
 .numbers {
-  position: relative;
+  position: absolute;
   background-color: transparent;
-  width: 100vw;
-  height: 70vh;
-  margin: 20vh auto;
+  width: 100%;
+  height: 51vh;
+  bottom: 0;
   z-index: 999;
+  border: .1rem solid palevioletred;
 }
 /*# sourceMappingURL=style.css.map */
