@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-size: 190%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.popup {
+  position: fixed;
+  z-index: 999;
+  background-color: aquamarine;
+  color: black;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.popup #input {
+  position: relative;
+  top: 20vh;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  height: 2rem;
+  width: 80vw;
+  font-size: 1rem;
+}
+
+.popup #btn {
+  position: relative;
+  top: 30vh;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  height: 2rem;
+  width: 80vw;
+  font-size: 1rem;
+}
+
+.wrapper {
+  background-color: red;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./images/keypadphone.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 0;
+  background-size: contain;
+}
+
+.app {
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.output {
+  position: relative;
+  z-index: 999;
+  background-color: transparent;
+  color: black;
+  top: 4rem;
+  height: 4rem;
+  width: 100vw;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 412px) {
+  .output {
+    top: 7.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .output {
+    top: 6.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+.numbers {
+  position: relative;
+  background-color: transparent;
+  width: 100vw;
+  height: 70vh;
+  margin: 20vh auto;
+  z-index: 999;
+}
+/*# sourceMappingURL=style.css.map */
